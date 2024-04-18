@@ -1,12 +1,13 @@
 ﻿namespace Kassensystem
 {
+    // Eine Klasse, die ein Produkt repräsentiert, das im Kassensystem verkauft wird
     public class Produkt
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public decimal Preis { get; set; }
+        public int ID { get; set; } // Die eindeutige ID des Produkts
+        public string Name { get; set; } // Der Name des Produkts
+        public decimal Preis { get; set; } // Der Preis des Produkts
 
-        // Konstruktor
+        // Konstruktor, der es ermöglicht, ein Produkt mit allen Eigenschaften zu erstellen
         public Produkt(int id, string name, decimal preis)
         {
             ID = id;
@@ -21,3 +22,4 @@
     }
 
 }
+
